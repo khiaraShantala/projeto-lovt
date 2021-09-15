@@ -112,3 +112,94 @@ section.lofts article .thumb{
 section.lofts article .info {
     padding: 15px;
 }
+
+section.lofts article .info > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.lofts article .price {
+    font-size: 20px;
+    color: #888;
+    font-weight: 400;
+    margin: 5px 0;
+
+}
+
+section.lofts article .tag {
+    text-transform: uppercase;
+    padding: 3px 10px;
+    background-color: #888;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 30px;
+}
+
+section.lofts article .tag.tag-new {
+    background-color:  #51D275;
+}
+
+section.lofts article .tag.tag-sale {
+    background-color: #DC9730;
+}
+
+section.styles .container article {
+    width: 100%;
+    background-color: #888;
+    padding: 50px 25px;
+    margin: 30px 0;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+section.styles article h3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    top: 0;
+    left: 0;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+footer .container .mapa iframe {
+    height: 300px;
+    border-radius: 10px;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer .social-medias ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+footer .social-medias ul li img {
+    width: 30px;
+    margin: 10px 10px 10px 0;
+}
